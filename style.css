@@ -1,0 +1,31 @@
+* {
+    text-align: center;
+}
+
+.ranking {
+    justify-content: center;
+    display: flex;
+}
+
+.ranking ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+.second {
+    margin-right: 5px;
+}
+
+.premiacao ul li {
+    display: inline-flex;
+}
