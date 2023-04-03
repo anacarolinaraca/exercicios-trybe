@@ -1,0 +1,33 @@
+div:hover {
+    border: solid 1px black;
+}
+
+div:nth-child(odd){
+    font-style: italic;
+}
+
+.cor1 {
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cor2 {
+    background-color: lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cor3 {
+    background-color: lightcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.corDark {
+    background-color: lightpink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.corLight {
+    background-color: lightslategrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
