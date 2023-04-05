@@ -1,19 +1,28 @@
 // 1 - Elabore alguns códigos e imprima o resultado no console usando o console.log, um para cada operação aritmética básica. Seu código deve ter duas variáveis, a e b, definidas no começo com os valores que serão operados. Escreva códigos para:
 
-let a = 8;
-let b = 4;
+// let a = 8;
+// let b = 4;
 
-let soma = a + b;
-let subtracao = a - b;
-let multiplicacao = a * b;
-let divisao = a / b;
-let resto = a % b;
-let potencia = a ** b;
+// let soma = a + b;
+// let subtracao = a - b;
+// let multiplicacao = a * b;
+// let divisao = a / b;
+// let resto = a % b;
+// let potencia = a ** b;
 
-console.log(soma, subtracao, multiplicacao, divisao, resto, potencia);
+// console.log(soma, subtracao, multiplicacao, divisao, resto, potencia);
 
 
 // 2 - Utilize if/else para escrever um código que retorne o maior de dois números. Defina, no começo do seu código, duas variáveis com os valores que serão comparados.
+
+const x = 3;
+const y = 2;
+
+if (x > y) {
+    console.log(x + " é maior que " + y);
+} else {
+    console.log(y + " é maior que " + x);
+}
 
 // 3 - Utilize if/else para escrever um código que retorne o maior de três números. Defina, no começo do seu código, três variáveis com os valores que serão comparados.
 
