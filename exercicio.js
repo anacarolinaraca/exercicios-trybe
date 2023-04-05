@@ -177,20 +177,52 @@
 
 // 10 - Utilize if/else para escrever um código que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, o código deve calcular o lucro (ou seja, o valor de venda menos o custo do produto) da empresa ao vender mil produtos.
 
-let custoProduto = 2;
-let valorVenda = 5;
+// let custoProduto = 2;
+// let valorVenda = 5;
 
-let vendas;
-let lucro;
+// let vendas;
+// let lucro;
 
-if (custoProduto >= 0 && valorVenda >= 0){
-    vendas = custoProduto * 1.2;
-    lucro = (valorVenda - vendas) * 1000;
-    console.log(lucro);
-} else {
-    console.log("Não teve lucro");
-}
+// if (custoProduto >= 0 && valorVenda >= 0){
+//     vendas = custoProduto * 1.2;
+//     lucro = (valorVenda - vendas) * 1000;
+//     console.log(lucro);
+// } else {
+//     console.log("Não teve lucro");
+// }
+
+
 
 
 // 11 - Utilize if/else para escrever um código que, dado um salário bruto, calcule o salário líquido a ser recebido.
 
+let salarioBruto = 1900;
+
+let descontoINSS;
+let descontoIR;
+
+if (salarioBruto <= 1556.94){
+    descontoINSS = salarioBruto * 0.08;
+} else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92){
+    descontoINSS = salarioBruto * 0.09;
+} else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.92){
+    descontoINSS = salarioBruto * 0.11;
+} else if (salarioBruto >= 5189.82){
+    descontoINSS = 570.88;
+} 
+
+let salarioComINSS = salarioBruto - descontoINSS;
+
+if (salarioComINSS <= 1903.98) {
+    descontoIR = 0;
+} else if (salarioComINSS >= 1903.99 && salarioComINSS <= 2826.65){
+    descontoIR = (salarioComINSS * 0,075) - 142.80;
+} else if (salarioComINSS >= 2826.66 && salarioComINSS <= 3751.05){
+    descontoIR = (salarioComINSS * 0,15) - 354.80;
+} else if (salarioComINSS >= 3751.06 && salarioComINSS <= 4664.68){
+    descontoIR = (salarioComINSS * 0,225) - 636.13;
+} else if (salarioComINSS >= 4664.68){
+    descontoIR = (salarioComINSS * 0,275) - 869.36;
+} 
+
+console.log("Salário Líquido: " + (salarioComINSS - descontoIR));
