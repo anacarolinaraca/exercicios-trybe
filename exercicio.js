@@ -147,20 +147,33 @@
 
 // 8 - Utilize if/else para escrever um código que defina três números em variáveis e retorne true se pelo menos uma das três for par. Caso contrário, o código deve retornar false.
 
-const num1 = 1;
-const num2 = 3;
-const num3 = 5;
+// const num1 = 1;
+// const num2 = 3;
+// const num3 = 5;
 
-if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0) {
-    console.log(true); 
-} else {
-    console.log(false) ;
-}
+// if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0) {
+//     console.log(true); 
+// } else {
+//     console.log(false);
+// }
 
 
 
 
 // 9 - Utilize if/else para escrever um código que defina três números em variáveis e retorne true se pelo menos uma das três for ímpar. Caso contrário, o código deve retornar false.
+
+const num1 = 2;
+const num2 = 4;
+const num3 = 1;
+
+if (num1 % 2 !== 0 || num2 % 2 !== 0 || num3 % 2 !== 0) {
+    console.log(true); 
+} else {
+    console.log(false);
+}
+
+
+
 
 // 10 - Utilize if/else para escrever um código que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, o código deve calcular o lucro (ou seja, o valor de venda menos o custo do produto) da empresa ao vender mil produtos.
 
