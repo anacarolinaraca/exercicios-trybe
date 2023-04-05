@@ -124,20 +124,45 @@
 // Porcentagem < 50 -> F
 // O código deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
 
-let nota = 60;
+// let nota = 60;
 
-if (nota > 100 || nota < 0) {
-    console.log("Nota inválida");
-} else if (nota >= 90) {
-    console.log("A");
-} else if (nota >= 80) {
-    console.log("B");
-} else if (nota >= 70) {
-    console.log("C");
-} else if (nota >= 60) {
-    console.log("D");
-} else if (nota >= 50) {
-    console.log("E");
-} else if (nota < 50) {
-    console.log("F");
-} 
+// if (nota > 100 || nota < 0) {
+//     console.log("Nota inválida");
+// } else if (nota >= 90) {
+//     console.log("A");
+// } else if (nota >= 80) {
+//     console.log("B");
+// } else if (nota >= 70) {
+//     console.log("C");
+// } else if (nota >= 60) {
+//     console.log("D");
+// } else if (nota >= 50) {
+//     console.log("E");
+// } else if (nota < 50) {
+//     console.log("F");
+// } 
+
+
+
+
+// 8 - Utilize if/else para escrever um código que defina três números em variáveis e retorne true se pelo menos uma das três for par. Caso contrário, o código deve retornar false.
+
+const num1 = 1;
+const num2 = 3;
+const num3 = 5;
+
+if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0) {
+    console.log(true); 
+} else {
+    console.log(false) ;
+}
+
+
+
+
+// 9 - Utilize if/else para escrever um código que defina três números em variáveis e retorne true se pelo menos uma das três for ímpar. Caso contrário, o código deve retornar false.
+
+// 10 - Utilize if/else para escrever um código que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, o código deve calcular o lucro (ou seja, o valor de venda menos o custo do produto) da empresa ao vender mil produtos.
+
+// 11 - Utilize if/else para escrever um código que, dado um salário bruto, calcule o salário líquido a ser recebido.
+
