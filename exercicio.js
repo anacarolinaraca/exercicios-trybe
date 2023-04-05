@@ -62,28 +62,57 @@
 
 // 5 - 🚀 Utilize if/else para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
 
-let ang1 = 0;
-let ang2 = 40;
-let ang3 = 90;
+// let ang1 = 0;
+// let ang2 = 40;
+// let ang3 = 90;
 
-let soma = ang1 + ang2 + ang3;
+// let soma = ang1 + ang2 + ang3;
 
-let angPositivos = ang1 > 0 && ang2 > 0 && ang3 > 0;
+// let angPositivos = ang1 > 0 && ang2 > 0 && ang3 > 0;
 
-if (angPositivos) {
-    if (soma === 180){
-        console.log(true);
-    } else {
-        console.log(false);
-    }
-} else {
-    console.log('Ângulo inválido!!');
-}
+// if (angPositivos) {
+//     if (soma === 180){
+//         console.log(true);
+//     } else {
+//         console.log(false);
+//     }
+// } else {
+//     console.log('Ângulo inválido!!');
+// }
 
 
 
 
 // 6 - Utilize switch/case para escrever um código que receba o nome de uma peça de xadrez e retorne os movimentos que ela pode fazer.
+
+let movimento = "cavalo";
+
+switch (movimento) {
+    case "bispo":
+        console.log("Bispo - Se move em uma linha reta diagonalmente no tabuleiro");
+    break; 
+    case "peão":
+        console.log("Peão - Se movem somente para frente, uma casa por vez, apenas na primeira vez que se move duas casas");
+    break; 
+    case "torre":
+        console.log("Torre - Se move em linha reta horizontalmente e verticalmente");
+    break; 
+    case "cavalo":
+        console.log("Cavalo - Se por duas casas horizontalmente ou verticalmente e então uma casa a mais em uma ângulo reto");
+    break; 
+    case "rainha":
+        console.log("Rainha - Se qualquer número de casas em linha reta - verticalmente, horizontalmente ou diagonalmente.");
+    break; 
+    case "rei":
+        console.log("Rei - Se move para qualquer casa adjacente");
+    break; 
+    default:
+        console.log("Peça inválida!!");
+} 
+
+
+
+
 
 // 7 - Utilize if/else para escrever um código que converta uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga as seguintes regras:
 
