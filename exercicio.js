@@ -85,30 +85,30 @@
 
 // 6 - Utilize switch/case para escrever um código que receba o nome de uma peça de xadrez e retorne os movimentos que ela pode fazer.
 
-let movimento = "cavalo";
+// let movimento = "cavalo";
 
-switch (movimento) {
-    case "bispo":
-        console.log("Bispo - Se move em uma linha reta diagonalmente no tabuleiro");
-    break; 
-    case "peão":
-        console.log("Peão - Se movem somente para frente, uma casa por vez, apenas na primeira vez que se move duas casas");
-    break; 
-    case "torre":
-        console.log("Torre - Se move em linha reta horizontalmente e verticalmente");
-    break; 
-    case "cavalo":
-        console.log("Cavalo - Se por duas casas horizontalmente ou verticalmente e então uma casa a mais em uma ângulo reto");
-    break; 
-    case "rainha":
-        console.log("Rainha - Se qualquer número de casas em linha reta - verticalmente, horizontalmente ou diagonalmente.");
-    break; 
-    case "rei":
-        console.log("Rei - Se move para qualquer casa adjacente");
-    break; 
-    default:
-        console.log("Peça inválida!!");
-} 
+// switch (movimento) {
+//     case "bispo":
+//         console.log("Bispo - Se move em uma linha reta diagonalmente no tabuleiro");
+//     break; 
+//     case "peão":
+//         console.log("Peão - Se movem somente para frente, uma casa por vez, apenas na primeira vez que se move duas casas");
+//     break; 
+//     case "torre":
+//         console.log("Torre - Se move em linha reta horizontalmente e verticalmente");
+//     break; 
+//     case "cavalo":
+//         console.log("Cavalo - Se por duas casas horizontalmente ou verticalmente e então uma casa a mais em uma ângulo reto");
+//     break; 
+//     case "rainha":
+//         console.log("Rainha - Se qualquer número de casas em linha reta - verticalmente, horizontalmente ou diagonalmente.");
+//     break; 
+//     case "rei":
+//         console.log("Rei - Se move para qualquer casa adjacente");
+//     break; 
+//     default:
+//         console.log("Peça inválida!!");
+// } 
 
 
 
@@ -123,3 +123,21 @@ switch (movimento) {
 // Porcentagem >= 50 -> E
 // Porcentagem < 50 -> F
 // O código deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
+
+let nota = 60;
+
+if (nota > 100 || nota < 0) {
+    console.log("Nota inválida");
+} else if (nota >= 90) {
+    console.log("A");
+} else if (nota >= 80) {
+    console.log("B");
+} else if (nota >= 70) {
+    console.log("C");
+} else if (nota >= 60) {
+    console.log("D");
+} else if (nota >= 50) {
+    console.log("E");
+} else if (nota < 50) {
+    console.log("F");
+} 
