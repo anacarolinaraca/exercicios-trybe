@@ -48,19 +48,24 @@
 
 // 4 - Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, retorne: “positive”, se esse valor for positivo; “negative”, se esse valor for negativo, e “zero”, caso esse valor não seja nem positivo nem negativo.
 
-let valor = "negative";
+// let valor = -1;
 
-if (valor === "positive") {
-    console.log(valor);
-} else if (valor === "negative"){
-    console.log(valor);
-} else {
-    console.log("zero");
-}
+// if (valor > 0) {
+//     console.log("positive");
+// } else if (valor < 0){
+//     console.log("negative");
+// } else {
+//     console.log("zero");
+// }
 
 
 
 // 5 - 🚀 Utilize if/else para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
+
+
+
+
+
 
 // 6 - Utilize switch/case para escrever um código que receba o nome de uma peça de xadrez e retorne os movimentos que ela pode fazer.
 
