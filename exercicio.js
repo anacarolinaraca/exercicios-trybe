@@ -31,22 +31,34 @@
 
 // 3 - Utilize if/else para escrever um código que retorne o maior de três números. Defina, no começo do seu código, três variáveis com os valores que serão comparados.
 
-const v = 5;
-const c = 6;
-const d = 4;
+// const v = 5;
+// const c = 6;
+// const d = 4;
 
-if (v > c && v > d) {
-    console.log(v + " é maior que " + c + " e " + d);
-} else if (c > v && c > d) {
-    console.log(c + " é maior que " + v + " e " + d);
-} else {
-    console.log(d + " é maior que " + v + " e " + c);
-}
+// if (v > c && v > d) {
+//     console.log(v + " é maior que " + c + " e " + d);
+// } else if (c > v && c > d) {
+//     console.log(c + " é maior que " + v + " e " + d);
+// } else {
+//     console.log(d + " é maior que " + v + " e " + c);
+// }
 
 
 
 
 // 4 - Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, retorne: “positive”, se esse valor for positivo; “negative”, se esse valor for negativo, e “zero”, caso esse valor não seja nem positivo nem negativo.
+
+let valor = "negative";
+
+if (valor === "positive") {
+    console.log(valor);
+} else if (valor === "negative"){
+    console.log(valor);
+} else {
+    console.log("zero");
+}
+
+
 
 // 5 - 🚀 Utilize if/else para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, você deve retornar uma mensagem de erro.
 
