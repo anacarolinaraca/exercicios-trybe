@@ -13,18 +13,38 @@
 // console.log(soma, subtracao, multiplicacao, divisao, resto, potencia);
 
 
+
+
 // 2 - Utilize if/else para escrever um código que retorne o maior de dois números. Defina, no começo do seu código, duas variáveis com os valores que serão comparados.
 
-const x = 3;
-const y = 2;
+// const x = 3;
+// const y = 2;
 
-if (x > y) {
-    console.log(x + " é maior que " + y);
-} else {
-    console.log(y + " é maior que " + x);
-}
+// if (x > y) {
+//     console.log(x + " é maior que " + y);
+// } else {
+//     console.log(y + " é maior que " + x);
+// }
+
+
+
 
 // 3 - Utilize if/else para escrever um código que retorne o maior de três números. Defina, no começo do seu código, três variáveis com os valores que serão comparados.
+
+const v = 5;
+const c = 6;
+const d = 4;
+
+if (v > c && v > d) {
+    console.log(v + " é maior que " + c + " e " + d);
+} else if (c > v && c > d) {
+    console.log(c + " é maior que " + v + " e " + d);
+} else {
+    console.log(d + " é maior que " + v + " e " + c);
+}
+
+
+
 
 // 4 - Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, retorne: “positive”, se esse valor for positivo; “negative”, se esse valor for negativo, e “zero”, caso esse valor não seja nem positivo nem negativo.
 
