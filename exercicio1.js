@@ -43,7 +43,14 @@
 // console.log(`O resultado da soma de ${a} + ${b} é: ${soma(a,b)}`);
 
 
-//
+// TRANSFORMAR EM ARROW FUNCTIONS
 
-const numeroAleatorio = () => Math.random()
-console.log(numeroAleatorio());
+// const numeroAleatorio = () => Math.random()
+// console.log(numeroAleatorio());
+
+
+// TRANSFORMAR EM ARROW FUNCTIONS
+
+const hello = (nome) => `Olá, ${nome}!`
+let nome = 'Ivan';
+console.log(hello(nome));
