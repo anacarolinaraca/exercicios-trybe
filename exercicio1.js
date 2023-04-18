@@ -10,13 +10,20 @@
 
 // MUDAR CONST PARA LET
 
-  let pessoa = {
-    nome: 'Henri',
-    idade: 20
-  }
-  pessoa = {
-    nome: 'Luna',
-    idade: 19
-  } 
-  console.log('Nome:', pessoa.nome);
-  console.log('Idade:', pessoa.idade);
+// let pessoa = {
+//     nome: 'Henri',
+//     idade: 20
+// }
+// pessoa = {
+//     nome: 'Luna',
+//     idade: 19
+// } 
+// console.log('Nome:', pessoa.nome);
+// console.log('Idade:', pessoa.idade);
+
+
+// MUDAR CONST PARA LET
+
+let favoriteFood = 'Lasanha';
+favoriteFood = 'Hambúrguer';
+console.log(favoriteFood);
