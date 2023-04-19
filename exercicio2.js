@@ -7,3 +7,12 @@ const ligaDesliga = (motor) => {
 }
 ligaDesliga();
 
+
+// Questão 2
+
+const calcAreaCirculo = (raio) => {
+    let area = 3.14 * (raio ** 2);
+    return area;
+}
+
+console.log(calcAreaCirculo(2));
