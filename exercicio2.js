@@ -16,3 +16,21 @@ const calcAreaCirculo = (raio) => {
 }
 
 console.log(calcAreaCirculo(2));
+
+
+// Questão 3
+
+let longestWord = (frase) => {
+    let palavra = frase.split(' ');
+    let letras = 0;
+    let maiorPalavra = '';
+    for (const palavras of palavra) {
+        if (palavras.length > letras){
+        letras = palavras.length;
+        maiorPalavra = palavras;
+        }
+    }
+    return maiorPalavra;
+}
+
+console.log(longestWord('Antônio foi ao banheiro e não sabemos o que aconteceu'));
