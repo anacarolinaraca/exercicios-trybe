@@ -28,7 +28,7 @@ const promo = [
     try {
       checkName(name);
       checkNumber(parseInt(number));
-      checkValidRange(parseInt(number));
+      checkValidRange(number);
       const productObject = checkPromo(parseInt(number));
 
       firstText.innerHTML = `Boas-vindas, ${name}!`;
@@ -36,6 +36,9 @@ const promo = [
         ${productObject.product} no valor de R$ ${productObject.price}`;
     } catch (error) {
       secondText.innerHTML = error.message;
+    } finally {
+      document.querySelector('#name-id').value = "";
+      document.querySelector('#number-id').value = "";
     }
   }
   
