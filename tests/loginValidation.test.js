@@ -3,7 +3,7 @@ const {
   greetingMessage,
   loginErrorMessage,
   verifyCredentials,
-} = require("./loginValidation.js");
+} = require("../loginValidation.js");
 
 describe("a função verifyCredentials()", () => {
   // veja que testamos o objeto `user` agora com outros dados
