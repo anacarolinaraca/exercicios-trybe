@@ -3,33 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Atividade Fetch</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="./index.js"></script>
+    <title>Super Hero</title>
   </head>
   <body>
-    <div id="app">
-      <h1>Microblogs</h1>
-      <div class="select-section">
-        <select name="users-select" id="users-select" required>
-          <option value="" disabled selected>Select a person</option>
-        </select>
-      </div>
-
-      <div id="posts-section" class="invisible">
-        <div id="featured-post">
-          <h2 id="featured-post-title"></h2>
-          <p id="featured-post-body"></p>
-
-          <div id="featured-post-comments"></div>
-        </div>
-
-        <div id="related-posts-section"></div>
-      </div>
-
-      <div class="error-section">
-        <p id="error-message" class="invisible"></p>
-      </div>
-    </div>
+    <h1 class="title">SuperHeroes</h1>
+    <section class="card">
+      <img id="img-super-hero" alt="Heróis" />
+      <p id="name">- Nome da sua super heroína ou do super herói -</p>
+      <button id="btn-sort">Sortear</button>
+    </section>
+    <script type="module" src="./src/superHero.js"></script>
   </body>
 </html>

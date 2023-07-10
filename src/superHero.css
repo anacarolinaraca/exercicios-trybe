@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#img-super-hero {
+    width: 250px;
+    margin: 10px;
+    align-self: center;
+}
+
+#btn-sort {
+    background-color: green;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    align-self: center;
+}
