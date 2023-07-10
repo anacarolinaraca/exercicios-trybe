@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+button {
+    background-color: #383838;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#img-animal {
+    width: 500px;
+    border: solid white 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #292929;
+}
+
+.img-container {
+    text-align: center;
+}
